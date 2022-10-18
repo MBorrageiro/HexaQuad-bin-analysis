@@ -2,3 +2,4 @@
 ~$*
 # going to exclude the bin files on the repo, they all stored on the drive anyway
 *.bin
+DidUForget.txt

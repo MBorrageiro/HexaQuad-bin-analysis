@@ -24,6 +24,17 @@ E.g: `> logBatchProcess.bat fQ_18-10-2022_#1.bin BAT`
 - It will then create a folder for the created CSV files `/fQ_18-10` as well as name the CSV file according to the file name and parameters entered. `fQ_18-10_#1_BAT.csv`
 - If a folder exists it will use it however files with the same name will be overwritten.
 
+## File Naming Convention:
+
+The batch file requires a specific file name to create the folder and file names correctly. This helps automate it, I have not dived too deep into batch commands to make it more complex.
+
+**Convention:**
+
+`f$_dd-mm-yyyy_#%.bin`
+
+Where `$` is replaced with either `H` or `Q` for Hex and Quad respectively.
+The `%` is used to identify the flight number on a specific day, i.e. "1, 2, 3...".
+
 # Installing and using MAVlogdump files:
 
 Mavlogdump.py is a tool part of the pymavlink package found [here](https://github.com/ArduPilot/pymavlink). This tool can be used to extract certain parameters from the log bin files and exported to CSV files. The logs are stored in bin files to save space.
