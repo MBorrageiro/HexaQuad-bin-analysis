@@ -5,6 +5,12 @@ This repo house the bin analysis tools and results from a MAVlogdump batch proce
 Currently, the quad and hex flight house csv files with extracted data from the flight bin log files. The csvs make it easier to graph specific data for paper writing and comparison.
 Included are the bin files for the moment, it is likely that these files will be moved to an alternative location.
 
+**Original .bin files:**
+
+[Quad bins](https://drive.google.com/drive/folders/1blnslVVIkTeMw01TvXwdlLu9-NemGIcE?usp=sharing)
+
+[Hex bins](https://drive.google.com/drive/folders/1p-Np6uSYCnqMlToL2rfl4IctGXj7VmPZ?usp=sharing)
+
 # logBatchProcess
 The `logBatchProcess.bat` makes use of the tool from MAVlogdump to extract certain parameters from ardupilot bin files.
 

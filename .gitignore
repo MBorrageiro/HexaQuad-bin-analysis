@@ -1,2 +1,4 @@
 # Don't Commit the recovery files
 ~$*
+# going to exclude the bin files on the repo, they all stored on the drive anyway
+*.bin
