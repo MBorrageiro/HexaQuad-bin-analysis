@@ -11,6 +11,10 @@ Included are the bin files for the moment, it is likely that these files will be
 
 [Hex bins](https://drive.google.com/drive/folders/1p-Np6uSYCnqMlToL2rfl4IctGXj7VmPZ?usp=sharing)
 
+[Flight Testing Log Book](https://docs.google.com/document/d/1IzbIrM4uZlg5iohAHKDTNuOJu8K72PFzyiUcFh6SzkY/edit?usp=sharing)
+
+[Flight Details Sheet](https://docs.google.com/spreadsheets/d/1xMXZEZ1qYA3vHXtQImf-YpPpb3EZqXmerf4mNjln5WQ/edit?usp=sharing)
+
 # logBatchProcess
 The `logBatchProcess.bat` makes use of the tool from MAVlogdump to extract certain parameters from ardupilot bin files.
 
